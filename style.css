@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+    --main-color: #3d4335;
+    --border: 0.1rem solid rgba(255, 255, 255, .3);
+    --border-bottom: 0.1rem solid rgba(226, 215, 170, 0.3);
+    --footer: #e1e3db;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+    color: #fff;
+    padding: 25px;
+}
+
+.share img {
+    margin: 10px;
+}
+
+.share img:hover {
+    background-color: #b1afaf;
+    transition: .1s;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: rgba(228, 226, 226, 0.35) 0px 5px 15px;
+}
+
+.header > section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.header > section  h2 {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    margin-bottom: 15px;
+}
+
+.nabar {
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+}
+
+.navbar a:hover {
+    transition: 0.3s;
+    border-bottom: 0.1rem solid #f0ee9b;
+    padding-bottom: .2rem;
+    color: #f0ee9b;
+}
+
+.singup .entrar {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+
+.singup .entrar:hover {
+    transition: .3s;
+    border-bottom: 0.1rem solid #f0ee9b;
+    color: #f0ee9b;
+}
+
+.singup .trabalhe-comigo {
+    text-decoration: none;
+    background-color: #dbd4d4;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.singup .trabalhe-comigo:hover {
+    transition: .3s;
+    text-decoration: none;
+    background-color: #282927;
+    color: #fff;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.container .title {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container .title h3 {
+    margin-bottom: 18px;
+    font-size: 15px;
+}
+
+.container .home-img {
+    background-image: url(/img/home-img.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+.trabalhe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.trabalhe div h1 {
+    letter-spacing: .4rem;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 1rem;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 50px;
+    border-bottom: var(--border);
+}
+
+.article div p {
+    margin: 12px;
+}
+
+.saiba-mais {
+    color: #2c2c2c;
+    font-size: 13px;
+    text-decoration: none;
+    background-color: var(--footer);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.receitas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    margin: 0 30px;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.receitas div p {
+    font-size: 13px;
+}
+
+.h3-receitas {
+    text-transform: uppercase;
+    color: #fff;
+    margin: 15px 30px;
+}
+
+.img-receitas:hover {
+    cursor: pointer;
+}
+
+
+.footer {
+    text-align: center;
+    padding-top: 30px;
+    width: 100vw;
+    height: 100px;
+    background-color: var(--footer);
+    padding-bottom: 25px;
+}
+
+
+.footer h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.input {
+    width: 100vw;
+}
+
+.input input {
+    padding: 10px;
+    border: none;
+    width: 180px;
+}
+
+.footer .input a {
+    color: #fff;
+    text-decoration: none;
+    background-color: black;
+    padding: 9px;
+    border-radius: 4px;
+}
+
+.footer .input a:hover {
+    background-color: #383838;
+}
+
+
+
+
