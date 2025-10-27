@@ -94,7 +94,7 @@ body {
 }
 
 .singup .trabalhe-comigo:hover {
-    transition: .3s;
+    transition: .5s;
     text-decoration: none;
     background-color: #282927;
     color: #fff;
@@ -166,6 +166,13 @@ body {
     border-radius: 3px;
 }
 
+.saiba-mais:hover {
+    transition: .3s;
+    text-decoration: none;
+    background-color: #282927;
+    color: #fff;
+}
+
 .receitas {
     display: flex;
     align-items: center;
@@ -181,6 +188,11 @@ body {
 
 .receitas div p {
     font-size: 13px;
+}
+
+.receitas div img:hover {
+    transform: scale(1.1);
+    transition: .3s;
 }
 
 .h3-receitas {
